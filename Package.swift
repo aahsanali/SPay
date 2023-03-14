@@ -7,10 +7,10 @@ let pkgName = "SmartPay"
 let url = "https://raw.githubusercontent.com/aahsanali/SPayOnline/frameworks/SmartPay.xcframework.zip"
 let checkSum = "ae3bf000c1f5140f207d8866dc1d400ee2191b339bdd4782ce20524e7b5059fb"
 let package = Package(
-    name: "SmartPayLoadable",
+    name: pkgName,
     products: [
         .library(
-            name: "SmartPayLoadable",
+            name: pkgName,
             targets: [pkgName]),
     ],
     dependencies: [],
