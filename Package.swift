@@ -5,7 +5,7 @@ import PackageDescription
 
 let pkgName = "SmartPay"
 let url = "https://raw.githubusercontent.com/aahsanali/SPayOnline/frameworks/SmartPay.xcframework.zip"
-let checkSum = "ae3bf000c1f5140f207d8866dc1d400ee2191b339bdd4782ce20524e7b5059fb"
+let checkSum = "ba9b53e67b0bd4f20794088bcdde457bf2f13a6fdd34fa9942e6636a85b6b67f"
 let package = Package(
     name: pkgName,
     products: [
