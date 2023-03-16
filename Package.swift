@@ -3,9 +3,8 @@
 
 import PackageDescription
 
-let pkgName = "SmartPay"
-let url = "https://raw.githubusercontent.com/aahsanali/SPayOnline/frameworks/SmartPay.xcframework.zip"
-let checkSum = "ba9b53e67b0bd4f20794088bcdde457bf2f13a6fdd34fa9942e6636a85b6b67f"
+let url = "https://raw.githubusercontent.com/aahsanali/SPayOnline/frameworks/sp/1.1/SmartPay.xcframework.zip"
+let checkSum = "d7c1a0999672c1e792681766297d1f91a0c421ac4ff37d1424518b267213b1f4"
 let package = Package(
     name: pkgName,
     products: [
