@@ -15,7 +15,7 @@ let package = Package(
             targets: [pkgName]),
     ],
     dependencies: [
-        .package(url: "https://github.com/aahsanali/KCloud", from:  "1.0.0")
+        .package(url: "https://github.com/aahsanali/KCloud.git", from:  "1.0.0")
     ],
     targets: [
         .binaryTarget(name: pkgName, url: url, checksum: checkSum)
