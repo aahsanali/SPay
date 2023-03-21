@@ -13,5 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = {:http => 'https://raw.githubusercontent.com/aahsanali/SPayOnline/frameworks/sp/1.1/SmartPay.xcframework.zip'}
   spec.vendored_frameworks = 'SmartPay.xcframework'
   
+  spec.dependency 'KCloud'
+  
   end
   
